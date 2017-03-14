@@ -23,3 +23,7 @@ for i in range(len(list) - 1):
     (list[i], list[min]) = (list[min], list[i])
 
 print("排序后数组为：",list)
+
+
+#时间复杂度：O（n^2）
+#空间复杂度：O（1）
